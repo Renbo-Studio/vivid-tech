@@ -6,9 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Welcome to Vivid-Tech Solar Solutions</h1>
+        <p>Your Reliable Source for Sustainable Energy</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +17,12 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <section className="hero">
+        <h2>Powering a Brighter Future with Solar Energy</h2>
+        <p>Join us in the solar revolution and make a positive impact on the environment.</p>
+        <button className="cta-button">Get Started</button>
+      </section>
     </div>
   );
 }
